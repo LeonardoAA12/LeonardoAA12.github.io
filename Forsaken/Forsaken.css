@@ -14,10 +14,26 @@
     color: white;
 }
 
-.aleatorio{
+#aleatorio{
     background-color: black;
+    border-radius: 5px;
+    padding: 2px;
+    width: 100px;
+    padding-left: 10px;
 }
 
 .gui{
-    
+    display: flex;
+    margin: 5px;
+    height: 50px;
+}
+
+.hudleft{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
